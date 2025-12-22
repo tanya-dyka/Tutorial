@@ -1,0 +1,140 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.nav-link:hover,
+:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-link {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.address-link:hover,
+:focus {
+    color: #404bbf;
+}
+
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero-heading {
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 107.143%;
+    letter-spacing: 1.12px;
+    text-align: center;
+}
+
+.hero-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    color: #404BBF;
+}
+
+.hero-button:focus {
+    color: #404BBF;
+}
+
+.heading3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #2E2F42;
+}
+
+.body-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #434455;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.heading2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    color: #2E2F42;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.heading-team {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #2E2F42;
+    text-align: center;
+}
+
+.team-card {
+    background-color: #FFFFFF;
+}
+
+.team-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #434455;
+    text-align: center;
+}
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
