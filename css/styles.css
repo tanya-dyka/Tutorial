@@ -4,12 +4,69 @@ body {
     background-color: #FFFFFF;
 }
 
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
 ul {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 
-a {
-    text-decoration: none;
+img {
+    display: block;
+}
+
+.header-container {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: 76px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-link {
+    padding: 24px 0;
+}
+
+.address-list {
+    display: flex;
+    gap: 40px;
 }
 
 .nav-link {

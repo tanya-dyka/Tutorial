@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="./css/styles.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,22 +17,26 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="./index.html"><img src="images/Logo.svg" alt="WebStudio" width="115" height="24" /> </a>
-            <ul>
-                <li>
-                    <a href="#Studio" class="nav-link">Studio</a>
-                </li>
-                <li>
-                    <a href="#Portfolio" class="nav-link">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#Contacts" class="nav-link">Contacts</a>
-                </li>
-            </ul>
+    <header class="header-container">
+        <div class="header-wrapper container">
+            <nav class="header-nav">
+                <a class="header-logo" href="./index.html"><img src="images/Logo.svg" alt="WebStudio" width="115"
+                        height="24" />
+                </a>
+                <ul class="header-menu">
+                    <li>
+                        <a href="#Studio" class="nav-link">Studio</a>
+                    </li>
+                    <li>
+                        <a href="#Portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#Contacts" class="nav-link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
             <address class="address">
-                <ul>
+                <ul class="address-list">
                     <li>
                         <a href=" mailto:info@devstudio.com" class="address-link">info@devstudio.com</a>
                     </li>
@@ -38,7 +45,7 @@
                     </li>
                 </ul>
             </address>
-        </nav>
+        </div>
     </header>
     <main>
         <section class="hero">
